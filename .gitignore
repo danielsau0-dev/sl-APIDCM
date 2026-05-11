@@ -1,3 +1,5 @@
 node_modules/
 .env
 Restore-My-Files.txt
+ssl/
+*.pem

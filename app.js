@@ -8,9 +8,10 @@ const https = require('https');
 const fs = require('fs');
 const app = express();
 const cors = require('cors');
+
 const options = {
-    key: fs.readFileSync(process.env.SSL_KEY_PATH || 'C:\\Program Files\\OpenSSL-Win64\\key.pem'),
-    cert: fs.readFileSync(process.env.SSL_CERT_PATH || 'C:\\Program Files\\OpenSSL-Win64\\cert.pem')
+    key: fs.readFileSync(process.env.SSL_KEY_PATH ),
+    cert: fs.readFileSync(process.env.SSL_CERT_PATH )
   };
 
 const router = express.Router();
