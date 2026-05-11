@@ -1,0 +1,27 @@
+{
+  "name": "dcmqr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "axios-cookiejar-support": "^6.0.5",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.5",
+    "dcmjs-dimse": "^0.1.27",
+    "dicom-parser": "^1.8.21",
+    "dicomjs": "^0.1.0",
+    "dicomweb-client": "^0.10.4",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "tough-cookie": "^6.0.0"
+  }
+}
